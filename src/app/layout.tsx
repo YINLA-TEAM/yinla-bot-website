@@ -17,25 +17,31 @@ const notoSansTC = Noto_Sans_TC({
 
 export const metadata: Metadata = {
   title: {
-    default: "YINLA",
-    template: "%s | YINLA",
+    default: 'YINLA - 讓你的伺服器更有趣、更實用',
+    template: '%s | YINLA',
   },
-  description: "Discord bot",
-  publisher: "YINLA",
+  authors: [{
+    name: 'YinCheng',
+    url: 'https://yincheng.app',
+  }],
+  description: 'YINLA 是專為臺灣社群打造的 Discord 全能機器人。提供地震報告、即時天氣預警、中油油價推播、中華職棒 (CPBL) 賽況及翻譯系統。',
+  keywords: ['Discord Bot', 'YINLA', '地震速報', '中華職棒', 'CPBL', '油價查詢', '天氣預報', 'YouBike', '翻譯機器人'],
   openGraph: {
-    title: "YINLA",
-    description: "Discord bot",
-    url: "https://bot.yincheng.app",
-    siteName: "YINLA",
-    locale: "zh-TW",
-    type: "website",
+    title: 'YINLA - YINLA - 讓你的伺服器更有趣、更實用',
+    description: '整合地震、天氣、職棒與油價資訊，讓你的 Discord 伺服器更聰明！',
+    url: 'https://bot.yincheng.app',
+    siteName: 'YINLA',
+    images: [
+      {
+        url: '/YINLA_v2.png',
+        width: 800,
+        height: 600,
+        alt: 'YINLA Bot Logo',
+      },
+    ],
+    locale: 'zh_TW',
+    type: 'website',
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "YINLA",
-    description: "Discord bot",
-    creator: "@yincheng",
-  }
 };
 
 export default function RootLayout({
