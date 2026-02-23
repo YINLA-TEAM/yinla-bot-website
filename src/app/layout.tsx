@@ -35,7 +35,7 @@ export const metadata: Metadata = {
       {
         url: '/YINLA_v2.png',
         width: 800,
-        height: 600,
+        height: 800,
         alt: 'YINLA Bot Logo',
       },
     ],
