@@ -9,7 +9,7 @@ export default function AppFooter() {
       <footer className="bg-background text-foreground py-6 mt-12 border-t select-none">
         <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
           <p className="text-sm text-muted-foreground mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} YINLA. All rights reserved.
+            &copy; 2026 YINLA. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             <Link href="https://yincheng.app/bot">
