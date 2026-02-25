@@ -10,7 +10,6 @@ export default function HeroSection() {
     <section className="relative min-h-screen flex items-center justify-center bg-background text-foreground select-none overflow-hidden" id="hero">
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-500/15 dark:bg-blue-600/20 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-[100px] animate-pulse"></div>
       <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-sky-400/15 dark:bg-sky-500/20 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-[100px] animate-pulse animation-delay-2000"></div>
-      
       <div className="relative flex flex-col space-y-4 z-10 max-w-5xl mx-auto px-6 text-center">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -37,21 +36,20 @@ export default function HeroSection() {
             </div>
             <span>地震</span>
           </div>
-  
           <div className="flex items-center gap-2">
             <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-accent-foreground/10 hover:scale-105 hover:bg-yellow-500/10 hover:text-yellow-500 hover:dark:text-yellow-500 text-zinc-800 dark:text-zinc-200  transition duration-200">
               <Icon icon="mdi:baseball" className={`size-4`}/>
             </div>
             <span>棒球</span>
           </div>
-  
+
           <div className="flex items-center gap-2">
             <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-accent-foreground/10 hover:scale-105 hover:bg-blue-500/10 hover:text-blue-500 hover:dark:text-blue-500 text-zinc-800 dark:text-zinc-200 transition duration-200">
               <Icon icon="mdi:google-translate" className={`size-4`}/>
             </div>
             <span>翻譯</span>
           </div>
-  
+
           <div className="flex items-center gap-2">
             <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-accent-foreground/10 hover:scale-105 hover:bg-orange-500/10 hover:text-orange-500 hover:dark:text-orange-500 text-zinc-800 dark:text-zinc-200  transition duration-200">
               <Icon icon="mdi:gas-station" className={`size-4`}/>
