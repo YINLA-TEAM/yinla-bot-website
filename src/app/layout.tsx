@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Noto_Sans_TC, Inter } from "next/font/google";
 import { ThemeProvider } from "@/components/app/theme-provider";
 import AppHeader  from "@/components/app/appHeader";
+import AppFooter from "@/components/app/appFooter";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -64,6 +65,7 @@ export default function RootLayout({
         >
           <AppHeader />
           {children}
+          <AppFooter />
         </ThemeProvider>
       </body>
     </html>
