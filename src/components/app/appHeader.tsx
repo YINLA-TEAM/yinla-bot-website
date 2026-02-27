@@ -14,7 +14,7 @@ export default function AppHeader() {
       </Link>
       <div className="flex items-center gap-4">
         <Button variant="default" asChild className="rounded-lg h-8 bg-blue-600 hover:bg-blue-700 text-white">
-          <Link href="https://yincheng.app/bot">
+          <Link href="https://yincheng.app/bot" target="_blank">
             邀請 YINLA
           </Link>
         </Button>
