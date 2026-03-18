@@ -98,9 +98,9 @@ export default function FeatureSection() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
             viewport={{ once: true }}
-            className="mb-5 text-3xl font-extrabold tracking-tight md:text-5xl"
+            className="mb-5 text-4xl font-extrabold tracking-tight md:text-5xl"
           >
-            <span className="bg-linear-to-br from-zinc-600 via-zinc-900 to-zinc-600 bg-clip-text text-transparent dark:from-slate-100 dark:via-slate-400 dark:to-slate-100">
+            <span className="bg-linear-to-br from-zinc-600 via-zinc-900 to-zinc-600 bg-clip-text text-transparent dark:from-slate-100 dark:via-slate-400 dark:to-slate-100 md:leading-16 leading-12">
               你需要的功能
             </span>
             <br />
